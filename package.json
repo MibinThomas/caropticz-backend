@@ -34,3 +34,14 @@
     "nodemon": "^3.1.10"
   }
 }
+{
+  "version": 2,
+  "functions": {
+    "api/index.js": {
+      "runtime": "@vercel/node@2.15.9"
+    }
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "api/index.js" }
+  ]
+}
