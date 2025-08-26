@@ -45,3 +45,6 @@
     { "src": "/(.*)", "dest": "api/index.js" }
   ]
 }
+"engines": {
+  "node": "20.x"
+}
