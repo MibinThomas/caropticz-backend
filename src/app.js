@@ -30,13 +30,16 @@ app.get("/", (req, res) => {
   res.send("Server running successfully!");
 });
 
-const startServer = async () => {
-  await connectDB();
+// const startServer = async () => {
+//   await connectDB();
 
-  const PORT = 8000;
-  app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-  });
-};
+//   const PORT = 8000;
+//   app.listen(PORT, () => {
+//     console.log(`Server running at http://localhost:${PORT}`);
+//   });
+// };
 
-startServer();
+// startServer();
+
+export default app;
+
